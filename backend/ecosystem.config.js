@@ -5,7 +5,8 @@ module.exports = {
       exec_mode: 'cluster',
       instances: 'max', // Or a number of instances
       script: 'npm',
-      args: 'start'
+      args: 'start',
+      watch: true
     }
   ]
 }
