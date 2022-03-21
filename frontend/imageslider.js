@@ -42,25 +42,25 @@ function changeSlide(n) {
 
 
 document.getElementById("calc-button").onclick = () =>{
-    location.href = "../reiknivel/index.html"
+    location.href = "reiknivel/index.html"
   }
 
 document.getElementById("hreyfing-button").onclick = () =>{
-    location.href = "../hreyfing/index.html"
+    location.href = "hreyfing/index.html"
   }
 
 document.getElementById("mataræði-button").onclick = () =>{
-    location.href = "../mataræði/index.html"
+    location.href = "mataræði/index.html"
   }
 
 document.getElementById("greining-button").onclick = () =>{
-    location.href = "../greining/index.html"
+    location.href = "greining/index.html"
   }
 
 document.getElementById("meðhöndlun-button").onclick = () =>{
-    location.href = "../meðhöndlun/index.html"
+    location.href = "meðhöndlun/index.html"
   }
 
 document.getElementById("fræðsla-button").onclick = () =>{
-    location.href = "../fræðsla/index.html"
+    location.href = "fræðsla/index.html"
   }
