@@ -6,7 +6,7 @@ module.exports = {
       instances: 'max', // Or a number of instances
       script: 'npm',
       args: 'start',
-      watching: true
+      watch: true
     }
   ]
 }
