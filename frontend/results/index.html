@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beinheilsa.is - Reiknivél</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../general.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="resultScripts.js"></script>
+
+    </head>
+    <body onload="getTotalCalcium()">
+         
+        <div class="banner-container">
+            <div class="navbar-banner">
+                <a href="../homepage/index.html"><img src="../images/Beinheilsa_logo.png" alt="Logo" class='logo'></a>
+                <nav>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="../fræðsla/index.html">Fræðsla</a></li>
+                            <li><a href="../greining/index.html">Greining</a></li>
+                            <li><a href="../meðhöndlun/index.html">Meðhöndlun</a></li>
+                            <li><a href="../mataræði/index.html">Mataræði</a></li>
+                            <li><a href="../reiknivel/index.html">Reiknivél</a></li>
+                            <li><a href="../hreyfing/index.html">Hreyfing</a></li>
+                        </ul>
+                    </div>
+                    <div class="burger-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+
+
+            
+            <div class="background-banner bb-reiknivél">
+                <h2 class="banner-title">Niðurstöður úr Reiknivél</h2>
+            </div>
+            
+            <div class="reiknivel-container" >
+                <div class = "einingar">
+                    <div class="flokkur-niðurstöður">
+                        <div class = "niðurstöður" id = "neededGluggi"></div>
+                        <div class = "niðurstöður-rautt" id = "SvarGluggi"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class = "niðurstöður-mataræðifræði" id ="results-tips">
+
+                </div>
+                <!-- <img class="niðurstöður-mynd" src="images/MaturKalk.jpg" alt="Matur"> -->
+                <!-- <a href="Mataræði.html"><div class="niðurstöður-mynd">Fræddu þig um mataræði!</div></a> -->
+                <div onclick="location.href='../mataræði/index.html';" style="cursor: pointer;" class="niðurstöður-mynd">
+                    Fræddu þig um mataræði!
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class=footer-left>
+                    <h2>Styrktaraðilar:</h2>
+                    <br>
+                    <p>Amgen Inc.</p>
+                    <br>
+                    <p>Mjólkursamsalan</p>
+                    <br>
+                    <p>Arna ehf.</p>
+                </div>
+                <img src="../images/Beinheilsa_logo.png" alt="Logo" class='logo-footer'>
+                <div class=footer-right>
+                    <h2>Skilmálar:</h2>
+                    <br>
+                    <p>Vafrakökur</p>
+                    <br>
+                    <p>notenda skilmálar</p>
+                </div>
+            </div>
+        </div>
+        <script src="../burgermenu.js"></script>
+    </body>
+</html>

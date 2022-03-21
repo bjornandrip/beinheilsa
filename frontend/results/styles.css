@@ -1,0 +1,114 @@
+
+.bb-reiknivél{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/dairyproducts.jpg);
+}
+
+.reiknivel-container{
+    position: relative;
+    /* margin-left: 2vw; */
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    /* overflow: auto; */
+
+    /* background: #CFD8DD; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 5px; */
+    /* border: 1px solid red; */
+}
+
+.einingar{
+    /* margin-left: 2vw;
+    margin-right: 2vw; */
+
+    margin: 0 auto;
+    width: 85%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+    background: #CFD8DD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.flokkur-niðursöður{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    justify-items: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+}
+.niðurstöður{
+    position: relative;
+    width: 80%;
+    background: #FFFDE7;
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.niðurstöður-rautt{
+    position: relative;
+    width: 80%;
+    /* background: #FDAAAA; */
+    /* background-color: red; */
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.niðurstöður-mataræðifræði{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom:2%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150%;
+    display: inline-block;
+}
+
+.niðurstöður-mynd{
+    background-size: cover;
+    width: 50vw;
+    margin: 0 auto;
+    padding-bottom: 30%;
+    
+    /* background: url(MaturKalk.jpg); */
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/MaturKalk.jpg);
+
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    padding: 12%;
+    font-size: 2vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}

@@ -1,0 +1,161 @@
+
+.bb-mælingar{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Mælitæki.jpg);
+}
+.heading{
+    margin-top: 30px;
+    font-size: 25px;
+    display: inline-block;
+    top: 20vh;
+    border-bottom: 2px solid black;
+}
+
+.greining-container{
+    position: relative;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container{
+    height: 64vh;
+    width: 61vw;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.greining-undirflokkar{
+    width: 300px;
+    /* min-height: 80px; */
+    line-height: 5vh;
+    text-decoration-style: solid;
+    background: #CFD8DD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.greining-undirflokkar ul{
+    text-align: left;    
+}
+
+.greining-undirflokkar ul li{
+    list-style-type:none;
+    border-bottom: 1px solid white;
+    transition: 0.3s;
+
+}
+
+.greining-undirflokkar ul li:hover{
+    background: #74bfe8;
+    cursor: pointer;
+}
+
+
+.greining-undirflokkar ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.textGreining-container{
+    justify-content: center;
+    width: 65%;
+    padding-right: 10%;
+}
+
+.textGreining{
+    font-size: 22px;
+    text-align: left;
+}
+
+.textGreining p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.linkFrax{
+    width: 300px;
+    transition: 0.3s;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 5vh;
+    text-decoration-style: solid;
+    background: #CFD8DD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+.linkFrax a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.linkFrax:hover{
+    background: #74bfe8;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1000px){
+    .image-container{
+        height: 54vh;
+    }
+    
+}
+
+@media only screen and (max-width:650px){
+    .greining-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .textGreining-container{
+        padding: 0;
+    }
+
+    .textGreining{
+        font-size: 16px;
+    }
+    .image-container{
+        height: 34vh;
+    }
+    .linkFrax{
+        margin-top: 10px;
+    }
+    /* .greining-undirflokkar{
+        width: 220px;
+    }
+
+    .greining-undirflokkar ul li a{
+        font-size: 18px;
+    }
+    .linkFrax{
+        width: 220px;
+    }
+    .linkFrax a{
+        font-size: 18px;
+    } */
+}
+
+@media only screen and (max-width:450px){
+    .image-container{
+        height: 24vh;
+    }
+}

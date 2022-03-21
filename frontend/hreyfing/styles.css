@@ -1,0 +1,66 @@
+
+.bb-hreyfing{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Oldies_biking.jpg);
+}
+
+.hreyfing-content{
+    column-count: 2;
+    position: relative;
+    display: block;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 7vh;
+    text-align: left;
+}
+.hreyfing-content p{
+    font-size: 22px;
+    column-span: inherit;
+}
+
+.video-content{
+    position: relative;
+    display: inline-block;
+    /* padding-left: 15vw; */
+    /* padding-right: 15vw; */
+    margin-top: 15vh;
+}
+
+
+.video-content h1{
+    margin-bottom: 10px;
+}
+.video-content iframe{
+    margin: 10px;
+    width:520px ;
+    height:315px
+}
+
+.burger-menu{
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+
+@media only screen and (max-width:650px){
+    .hreyfing-content{
+        column-count: 1;
+    }
+    .hreyfing-content p{
+        font-size: 14px;
+        column-span: inherit;
+    }
+    .video-content iframe{
+        margin: 10px;
+        height: 180px;
+        width: 300px;
+    }
+}

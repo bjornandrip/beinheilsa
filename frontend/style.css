@@ -1,0 +1,744 @@
+/* comment efst */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+.logo {
+    position: absolute;
+    width: 9vw;
+    height: 9vh;
+    left: 1.4vw;
+    top: 3.5vh;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: center;
+    
+}
+.nav-links{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    /* margin-left: 310px;
+    margin-right: 310px; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    clip-path: inset(-5px 0px -5px 0px);
+}
+
+.burger-menu{
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-links ul li:hover {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 2.7vw;
+    padding-right: 2.7vw;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.4vw;
+    opacity: 0.7;
+}
+
+nav ul li a:hover{
+    opacity: 1;
+}
+
+
+.text{
+    position: relative;
+    top: -55vh;
+    color: #ffff;
+    font-size: 30px;
+    width: 40vw;
+    margin-left: 30vw;
+}
+.button-container{
+    position: relative;
+    top: -52vh;
+}
+button{
+
+    width: 211px;
+    height: 60px;
+    position: relative;
+
+    background: rgba(207, 216, 221, 0.5);
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    
+}
+
+
+.slideshow-container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    /* position: relative; */
+    object-fit: cover;
+    border-bottom: #000000 solid 2px;
+}
+
+.backround-image-1{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    background-position: center;
+    background-size: cover;
+    /* object-fit: cover; */
+    /* background-color: aqua; */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Reiknivel-HP.jpg);
+}
+.backround-image-2{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    background-position: center;
+    background-size: cover;
+    /* object-fit: cover; */
+    /* background-color: aqua; */
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Oldies_biking.jpg);
+}
+.backround-image-3{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    background-position: center;
+    background-size: cover;
+    /* object-fit: cover; */
+    /* background-color: aqua; */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/MaturKalk.jpg);
+}
+.backround-image-4{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    background-position: center;
+    background-size: cover;
+    /* object-fit: cover; */
+    /* background-color: aqua; */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Mælitæki.jpg);
+}
+
+.mySlides {display: none;
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+.dot-box{
+    position: relative;
+    top: -5vh;
+}
+.dot {
+    /* position: absolute; */
+    /* bottom: 0px; */
+
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    
+  }
+
+.active {
+    background-color: #3a3a3a;
+  }
+  
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .9} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .9} 
+    to {opacity: 1}
+  }
+
+
+/* banner fyrir auka síður */
+.navbar-banner{
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    height: 34%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 35px;
+    display: inline-block;
+    position: relative;
+    top:20vh;
+    color:white;
+    border-bottom: 2px solid black;
+}
+
+
+.banner-container{
+    /* display: none; */
+    display: block;
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    text-align: center;
+    /* position: relative; */
+    object-fit: cover;
+}
+.banner-pages{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    overflow-y: auto;
+    /* position: relative; */
+    object-fit: cover;
+    border-bottom: #000000 solid 2px;
+}
+
+/* .banner-container{
+    display: none;
+    display: block;
+    width: 100%;
+    height: 35%;
+} */
+
+.background-banner{
+    width: 100%;
+    height: 100%;
+    border-bottom: black solid 2px;
+    /* position: fixed; */
+    /* object-position: 80%; */
+    background-position: 100% 25%;
+    background-size: cover;
+
+}
+.bb-reiknivél{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Reiknivel-HP.jpg);
+}
+
+.bb-hreyfing{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Oldies_biking.jpg);
+}
+
+.bb-matur{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/MaturKalk.jpg);
+}
+
+.bb-mælingar{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Mælitæki.jpg);
+}
+
+
+/* Lower mp section */
+.lower-section{
+    position:relative;
+    display: block;
+    /* object-fit: contain; */
+
+}
+.lower-section h1{
+    position:relative;
+    display: block;
+    margin-top: 5vh;
+    /* object-fit: contain; */
+
+}
+
+
+.lower-section-content{
+    position: relative;
+    display: block;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 7vh;
+}
+.lower-section-content-img1{
+    display: inline-block;
+    height: 20vh;
+    width: 6vw;
+    margin: 0vw 5vw;
+}
+.lower-section-content-img2{
+    display: inline-block;
+    height:18vh;
+    width: 10vw;
+    margin: 0vw 9vw;
+}
+.lower-section-content-img3{
+    display: inline-block;
+    height: 18vh;
+    width: 10vw;
+    margin: 0vw 5vw;
+}
+.lower-section-content p{
+    font-size: 22px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    margin-top: 10vh;
+    position: relative;
+    display: block;
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #CFD8DD;
+    color: white;
+    text-align: center;
+    height: 30vh;
+  }
+
+.footer-left{
+    position: absolute;
+    top: 15%;
+    left: 27%;
+}
+
+.footer-right{
+    position: absolute;
+    top: 15%;
+    left: 59%;
+}
+
+.footer-left h2{ 
+    color: black;
+
+}
+
+.footer-left p{ 
+    color: black;
+
+}
+
+.footer-right h2{ 
+    color: black;
+
+}
+
+.footer-right p{ 
+    color: black;
+
+}
+
+/* llel */
+.logo-footer {
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    top: 10%;
+    left: 43%;
+}
+
+/* Reiknivél styles */
+
+
+
+
+
+/* Hreyfing styles */
+.hreyfing-content{
+    column-count: 2;
+    position: relative;
+    display: block;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 7vh;
+    text-align: left;
+}
+.hreyfing-content p{
+    font-size: 22px;
+    column-span: inherit;
+}
+
+.video-content{
+    position: relative;
+    display: inline-block;
+    /* padding-left: 15vw; */
+    /* padding-right: 15vw; */
+    margin-top: 15vh;
+}
+
+
+.video-content h1{
+    margin-bottom: 10px;
+}
+.video-content iframe{
+    margin: 10px;
+}
+.reiknivel-container{
+    position: relative;
+    /* margin-left: 2vw; */
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    /* overflow: auto; */
+
+    background: #CFD8DD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+.header-reiknivel{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 15vh;
+}
+.flokkur{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    justify-items: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+    border-bottom: solid black 2px;
+
+}
+.flokkur2{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    justify-items: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 10vh;
+    text-decoration-style: solid;
+    border-bottom: solid black 2px;
+}
+.flokkur3{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+    overflow: hidden;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 5vh;
+    text-decoration-style: solid;
+    position: relative;
+}
+
+.items-reiknivel{
+    position: relative;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    border-bottom: black solid 2px;
+}
+
+.texti-reiknivel{
+    float: left;
+    margin-left: 12vw;
+}
+
+.checkbox-kyn{
+    width:30vw;
+    margin-left: 65vw;
+    /* float: right; */
+}
+
+.svarbox{
+    margin-right: 1%;
+    float: right;
+}
+
+.select-option{
+    width: 150px;
+}
+
+.einingar{
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    /* text-decoration: underline; */
+    text-decoration-style: solid;
+    /* border-bottom: solid black 2px; */
+}
+
+.texti-fæða{
+    float: left;
+
+
+}
+.underline{
+    text-decoration: underline;
+}
+.texti-einingar{
+
+    margin: 0 auto;
+    width: 200px;
+}
+
+.texti-magn{
+    margin-right: 4%;
+    float: right;
+}
+
+/* .reikna-takki{
+
+    background: #FFFDE7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+} */
+
+.btn-three {
+    background: #FFFDE7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .btn-three::before {
+    background: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    transition: all 0.3s;
+  }
+  .btn-three:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .btn-three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.5);
+    transform: scale(1.2,1.2);
+  }
+  .btn-three:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+
+
+
+.flokkur-niðursöður{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    justify-items: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+}
+
+.niðurstöður-rautt{
+    position: relative;
+    width: 80%;
+    /* background: #FDAAAA; */
+    /* background-color: red; */
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.niðurstöður{
+    position: relative;
+    width: 80%;
+    background: #FFFDE7;
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15vh;
+    text-decoration-style: solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.niðurstöður-mataræðifræði-container{
+
+
+}
+.niðurstöður-mataræðifræði{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom:2%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150%;
+    display: inline-block;
+}
+
+.niðurstöður-mynd{
+    background-size: cover;
+    width: 50vw;
+    margin: 0 auto;
+    padding-bottom: 30%;
+    
+    /* background: url(MaturKalk.jpg); */
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/MaturKalk.jpg);
+
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    padding: 12%;
+    font-size: 2vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+
+@media only screen and (max-width:650px){
+    .nav-links{
+        position: fixed;
+        top: -100%;
+        left: 10%;
+        /* top: 5rem; */
+        flex-direction: column;
+        background-color:white;
+        opacity: 0.8;
+        width: 80%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    nav ul li{
+        display: block;
+        margin-bottom: 8px;
+    }    
+    nav ul li a{
+        /* text-decoration: none; */
+        color: #000000;
+        font-size: 25px;
+        opacity: 0.7;
+    } 
+    
+    .burger-menu{
+        display: inline;
+        font-size: 40px;
+        cursor:pointer;
+        /* float: right;
+        margin-right: 40px;
+        margin-top: 20px; */
+
+    }
+    .nav-links.active{
+        top:12%;
+        left:10%
+    }
+    .burger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .burger-menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}

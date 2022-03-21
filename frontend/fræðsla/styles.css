@@ -1,0 +1,95 @@
+.bb-fræðsla{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/doc_read.jpg);
+}
+
+.fræðsla-container{
+    width: 70%;
+    /* display: inline-block; */
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    text-align: left;
+}
+
+.fræðsla-container p{
+    margin-bottom: 1em;
+}
+
+.heading{
+    margin-top: 30px;
+    font-size: 25px;
+    display: block;
+    top: 20vh;
+    /* border-bottom: 2px solid black; */
+    margin-bottom: 1em;
+}
+.paragraph-content-container{
+    display: block;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.paragraph-content-container h1{
+    text-align: center;
+
+}
+
+.paragraph-content-container p{
+    font-size: 22px;
+}
+
+.greinar-container{
+
+    display: flex;
+}
+.greinar-container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    row-gap: 30px;
+    list-style: inside;
+    list-style-type:decimal;
+}
+
+.greinar-container ul li{
+    width: 90%;
+}
+
+.greinar-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+
+}
+.greinar-container ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+@media only screen and (max-width:650px){
+    .paragraph-content-container p{
+        font-size: 16px;
+    }
+    .greinar-container{
+
+        display: block;
+    }
+    .greinar-container ul li a{
+        font-size: 12px;
+    
+    }
+    .fræðsla-container p{
+        font-size: 16px;
+    }
+    .heading{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
