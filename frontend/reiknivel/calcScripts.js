@@ -1,5 +1,5 @@
 //The URL to which we will send the request
-const url = 'http://api.beinheilsa.is/products';
+const url = 'https://api.beinheilsa.is/products';
 
 function getAllProducts() {
 
