@@ -1,6 +1,6 @@
 
 .bb-reiknivél{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/dairyproducts.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/OldiesHoldingBabies.jpg);
 }
 
 .reiknivel-container{
@@ -99,7 +99,7 @@
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/MaturKalk.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Cheeses2.jpg);
 
     text-align: center;
     vertical-align: middle;

@@ -57,7 +57,7 @@
     background-size: cover;
     /* object-fit: cover; */
     /* background-color: aqua; */
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Reiknivel-HP.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/OldiesHoldingBabies.jpg);
 }
 .backround-image-2{
     width: 100%;
@@ -67,7 +67,7 @@
     background-size: cover;
     /* object-fit: cover; */
     /* background-color: aqua; */
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Oldies_biking.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/OldiesWalking.jpg);
 }
 .backround-image-3{
     width: 100%;
@@ -77,7 +77,7 @@
     background-size: cover;
     /* object-fit: cover; */
     /* background-color: aqua; */
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/MaturKalk.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Yoghurt.jpg);
 }
 .backround-image-4{
     width: 100%;
@@ -87,7 +87,7 @@
     background-size: cover;
     /* object-fit: cover; */
     /* background-color: aqua; */
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Mælitæki.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/DocPatiendXray.jpg);
 }
 
 .backround-image-5{
@@ -98,7 +98,7 @@
     background-size: cover;
     /* object-fit: cover; */
     /* background-color: aqua; */
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/medicine.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Meds.jpg);
 }
 .backround-image-6{
     width: 100%;
@@ -108,7 +108,7 @@
     background-size: cover;
     /* object-fit: cover; */
     /* background-color: aqua; */
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/doc_read.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/research.jpg);
 }
 
 .text{

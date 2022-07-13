@@ -362,8 +362,8 @@ button{
 
 .footer-left{
     position: absolute;
-    top: 15%;
-    left: 27%;
+    bottom: 15%;
+    left: 5%;
 }
 
 .footer-right{
